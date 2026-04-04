@@ -49,7 +49,7 @@ def get_strength_label(score):
     if score <= 2:
         return "Very Weak 🔴"
     elif score <= 4:
-        return "Weak 🟠"
+        return "Weak 🟠" 
     elif score <= 6:
         return "Moderate 🟡"
     elif score <= 8:
@@ -57,14 +57,14 @@ def get_strength_label(score):
     else:
         return "Very Strong 💪"
 
-
+ 
 def main():
     print("🔐 Password Strength Checker\n")
 
     password = input("Enter your password: ")
 
     score, feedback = check_password_strength(password)
-    strength = get_strength_label(score)
+    strength = get_strength_label(score) 
 
     print("\n--- Result ---")
     print(f"Strength: {strength}")
