@@ -6,7 +6,7 @@ import string   # Contains ready-made character sets (letters, digits, symbols)
 
 print("=== Random Password Generator ===\n")
 
-# Ask user how long the password should be
+# Ask user how long the password should be 
 length = int(input("Enter password length (e.g., 8, 12, 16): "))
 
 # Ask user what to include in the password
