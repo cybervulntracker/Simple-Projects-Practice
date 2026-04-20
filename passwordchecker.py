@@ -15,8 +15,6 @@ except socket.gaierror:
     print("Invalid hostname. Please try again.")
     exit()
 
-# Define the range of ports you want to scan
-# Here we scan from port 1 to 100 (you can increase later)
 start_port = 1
 end_port = 100
 
